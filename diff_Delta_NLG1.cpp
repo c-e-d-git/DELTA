@@ -18,7 +18,7 @@ unsigned int static GetNextWorkRequired_DELTA (const CBlockIndex* pindexLast, co
     int nDayFrame    = 576;                             // all:  use default blocks per day
 
     int64_t nLBWeight     = 16;                         // tweak: weight of last block
-    int64_t nShortWeight  =  4;                         // tweak: weight of last block
+    int64_t nShortWeight  =  4;                         // tweak: weight of short frame
     int64_t nMiddleWeight =  2;
     int64_t nLongWeight   =  1;
 
